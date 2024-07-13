@@ -1,0 +1,81 @@
+/* Add your CSS styles here */
+    .home-button {
+      display: inline-block;
+      padding: 40px 80px;
+      background-color: blue;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+* {
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+  }
+  body {
+  height: 100vh;
+  background-color: #72bcd4;
+}
+h1 {
+      text-align:centre;
+      font-size: 7em;
+      margin-top: 2px;
+      color: #72bcd4;
+background-color: #080808;
+}
+  .calculator {
+    width: 450px;
+    height: 420px;
+    position: absolute;
+    top: 30%;
+  left: 35%;
+    background-color: #FFFFFF;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border: 5px solid black;
+    border-radius: 10px;
+  }
+  #display {
+    width: 320px;
+    height: 40px;
+    text-align: centre;
+    background-color: black;
+    border: 3px solid white;
+    font-size: 18px;
+    left: 2px;
+    top: 2px;
+    color: #7fff00;
+  }
+  .btnTop{
+    color: white;
+    background-color: #6f6f6f;
+    font-size: 14px;
+    margin: auto;
+    width: 80px;
+    height: 25px;
+  }
+  .btnNum {
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    margin: auto;
+    width: 80px;
+    height: 25px;
+  }
+  .btnMath {
+    color: white;
+    background-color: blue;
+    font-size: 14px;
+    margin: auto;
+    width: 80px;
+    height: 25px;
+  }
+  .btnOpps {
+    color: white;
+    background-color: #ff9933;
+    font-size: 14px;
+    margin: auto;
+    width: 80px;
+    height: 25px;
+  }
